@@ -1,14 +1,45 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "orders": [
+    {
+      "room_number": "101",
+      "dishes": [
+        { "name": "Caesar Salad", "quantity": 1 },
+        { "name": "Margherita Pizza", "quantity": 2 },
+        { "name": "Lemonade", "quantity": 1 },
+        { "name": "Pasta Alfredo", "quantity": 1 },
+        { "name": "Garlic Bread", "quantity": 1 }
+      ]
+    },
+    {
+      "room_number": "102",
+      "dishes": [
+        { "name": "Spaghetti Carbonara", "quantity": 1 },
+        { "name": "Tiramisu", "quantity": 1 },
+        { "name": "Espresso", "quantity": 1 }
+      ]
+    },
+    {
+      "room_number": "103",
+      "dishes": [
+        { "name": "Minestrone Soup", "quantity": 1 },
+        { "name": "Panna Cotta", "quantity": 1 },
+        { "name": "Steak", "quantity": 1 },
+        { "name": "Coke", "quantity": 1 }
+      ]
+    },
+    {
+      "room_number": "104",
+      "dishes": [
+        { "name": "Lasagna", "quantity": 1 },
+        { "name": "Garlic Bread", "quantity": 3 }
+      ]
+    },
+    {
+      "room_number": "105",
+      "dishes": [
+        { "name": "Risotto", "quantity": 1 },
+        { "name": "Gelato", "quantity": 1 }
+      ]
+    }
+  ]
 }
