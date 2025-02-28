@@ -1,6 +1,7 @@
 {
   "orders": [
     {
+      "order_id": 111,
       "room_number": "101",
       "dishes": [
         { "name": "Caesar Salad", "quantity": 1 },
@@ -11,6 +12,7 @@
       ]
     },
     {
+      "order_id": 112,
       "room_number": "102",
       "dishes": [
         { "name": "Spaghetti Carbonara", "quantity": 1 },
@@ -19,6 +21,7 @@
       ]
     },
     {
+      "order_id": 113,
       "room_number": "103",
       "dishes": [
         { "name": "Minestrone Soup", "quantity": 1 },
@@ -28,6 +31,7 @@
       ]
     },
     {
+      "order_id": 114,
       "room_number": "104",
       "dishes": [
         { "name": "Lasagna", "quantity": 1 },
@@ -35,11 +39,41 @@
       ]
     },
     {
+      "order_id": 115,
       "room_number": "105",
       "dishes": [
         { "name": "Risotto", "quantity": 1 },
         { "name": "Gelato", "quantity": 1 }
       ]
+    },
+    {
+      "order_id": 116,
+      "room_number": "106",
+      "dishes": [
+        { "name": "Chicken Wings", "quantity": 6 },
+        { "name": "French Fries", "quantity": 1 },
+        { "name": "Beer", "quantity": 2 }
+      ]
+    },
+    {
+      "order_id": 117,
+      "room_number": "107",
+      "dishes": [
+        { "name": "Sushi Set", "quantity": 1 },
+        { "name": "Miso Soup", "quantity": 1 },
+        { "name": "Green Tea", "quantity": 1 }
+      ]
+    },
+    {
+      "order_id": 118,
+      "room_number": "108",
+      "dishes": [
+        { "name": "Cheeseburger", "quantity": 1 },
+        { "name": "Onion Rings", "quantity": 1 },
+        { "name": "Coca-Cola", "quantity": 1 }
+      ]
     }
   ]
 }
+
+
